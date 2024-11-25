@@ -26,3 +26,15 @@ span{
 .aboutimg{
     width: 100vh;
 }
+@media (max-width: 900px){
+    .intro,.about{
+        font-size: .5rem;
+
+    }
+    img{
+        max-width: 50%;
+    }
+    .skill{
+        font-size: .9rem;
+    }
+}

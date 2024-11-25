@@ -28,7 +28,52 @@
 }
 a{
     color: rgb(193, 118, 32);
+    font-size: 2rem;
 }
 .btn1{
     margin-left: 50px;
 }
+/* Adjust layout for smaller screens or zoom */
+@media (max-width: 900px) {
+    .pro-1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      
+    }
+  
+    .pro-1 .card-body {
+      flex: 1 1 calc(50% - 10px); /* 50% width minus some spacing */
+      margin: 5px 0; /* Add margin to prevent overlapping */
+      box-sizing: border-box; /* Ensure padding and margin are included in width calculation */
+      
+    }
+  
+    .pro-1 .card-body img {
+      max-width: 50%; /* Ensure the image resizes with the container */
+      max-height: 50%;
+      height: auto; /* Maintain the aspect ratio */
+      object-fit: cover; /* Ensure images don't stretch */
+    }
+  
+    .pro-1 .card-body a {
+      display: block;
+      margin-top: 10px;
+      font-size: .5rem
+    }
+    .pro-1 h4{
+        font-size: .9rem;
+    }
+    .pro-1 .card-body  {
+        font-size: 0.5rem;  /* Slightly smaller text for better readability on mobile */
+      }
+    /* Ensure the "Show All Project" button also adapts */
+    .text-center .btn {
+      width: 100%; /* Make the button span the full width in small screens */
+      padding: 10px;
+    }
+  }
+  
+   
+  
+  

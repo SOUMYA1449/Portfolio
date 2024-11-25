@@ -17,12 +17,7 @@
   margin-right: 50px;
   background-color: white;
 }
-.vbox2 {
-    height: 100px;
-    width: 3px;
-    margin-right: 60px;
-    background-color: white;
-  }
+
 .snma2 {
   margin-left: 90px;
   margin-top: 100px;
@@ -43,6 +38,7 @@
     border: 0px solid rgb(1, 35, 84) ;
 }
 .card{
+  background-color: rgb(1,35,84);
     border: 0px solid rgb(1, 35, 84) ;
 }
 .box1{
@@ -50,4 +46,102 @@
     width: 27%;
     height: 2px;
     background-color: white;
+}
+img{
+  box-shadow: 10px 10px 10px rgba(0, 166, 255, 0.541);
+}
+/* Margin and padding for "About Me" section */
+.about img {
+  margin-bottom: 20px; /* Equivalent to mt-3 */
+}
+.about h2 {
+  margin-top: 20px; /* Equivalent to mt-3 */
+}
+.about p {
+  margin-top: 20px; /* Equivalent to mt-4 */
+  padding-top: 10px; /* Equivalent to pt-4 */
+}
+.skillname li {
+  margin-top: 50px; /* Equivalent to mt-5 */
+  padding-top: 15px; /* Equivalent to pt-4 */
+}
+/* Margin and padding for Skills Section */
+
+
+/* Margin for Experience section */
+.exp h2 {
+  margin-top: 40px; /* Equivalent to mt-5 */
+  margin-bottom: 20px; /* Equivalent to mb-3 */
+}
+
+.body {
+  margin-top: 20px; /* Equivalent to mt-4 */
+}
+
+.card {
+  margin-right: 20px; /* Equivalent to me-2 */
+  margin-left: 20px;  /* Equivalent to ms-2 */
+}
+
+/* Additional Styles */
+.snma, .snma2, .snma3, .snma5 {
+  padding: 10px;
+}
+
+
+@media (max-width: 900px){
+  .about  {
+    font-family: "Times New Roman", serif;
+    font-size: .5rem;
+    text-align: center;
+  }
+  
+  .box {
+    height: 0px;
+    width: 0%;
+    margin-left: 0px;
+    background-color: white;
+  }
+  .vbox {
+    height: 0px;
+    width: 0px;
+    margin-right: 25px;
+    background-color: white;
+  }
+ 
+  .snma2 {
+    margin-left: 30px;
+    margin-top:50px;
+  }
+  .snma3 {
+    margin-left: 50px;
+  }
+  .snma4 {
+    margin-left: 20px;
+  }
+  .snma5 {
+    margin-left: 20px;
+  }
+  .exp .card .card-body{
+      background-color:rgb(1, 35, 84) ;
+      color: white;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.525);
+      border: 0px solid rgb(1, 35, 84) ;
+  }
+  .card{
+    background-color: rgb(1,35,84);
+      border: 0px solid rgb(1, 35, 84) ;
+  }
+  .box1{
+      margin-left: 10%;
+      width: 10%;
+      height: 2px;
+      background-color: white;
+  }
+  img{
+    box-shadow: 10px 10px 10px rgba(0, 166, 255, 0.541);
+  }
+  .snma2,.snma,.snma3,.snma5{
+    font-size: 0.9rem;
+  }
 }

@@ -2,16 +2,14 @@
   <div class="row">
     <div class="col d-flex justify-content-between">
       <div class="about text-light">
+        <img src="../../../assets/Soumya Ranjan mishra.png" width="100%" alt="" />
         <h2 class="text-center"><u>About Me</u></h2>
-        <p class="fs-5 mt-4">
+        <p class="fs-5">
           Hello! I'm Soumya Ranjan Mishra, a passionate Web Developer and Java
           Enthusiast. With a strong foundation in both front-end and back-end
           technologies, I specialize in building dynamic, user-friendly websites
           and robust web applications. My skills include
-          <strong
-            >HTML, CSS, JavaScript, Angular, React, and Java with Spring
-            Boot.</strong
-          >
+          <strong>HTML, CSS, JavaScript, Angular, React, and Java with Spring Boot.</strong>
           <br />
           I’m constantly exploring new technologies and frameworks to stay ahead
           in the ever-evolving web development landscape. I thrive on solving
@@ -22,37 +20,39 @@
           collaborate on projects that make an impact.
         </p>
       </div>
-      <div class="img">
-        <img src="../../../assets/about.png" alt="" />
-      </div>
     </div>
   </div>
 
   <!-- Skills Section -->
-  <div class="skill">
-    <h2 class="text-light text-center mt-5">My Skills</h2>
-    <div class="box d-flex justify-content-between">
-      <div class="vbox"></div>
-      <div class="vbox2"></div>
-      <div class="vbox"></div>
-      <div class="vbox2"></div>
-      <div class="vbox"></div>
-      <div class="vbox2"></div>
-    </div>
-    <div class="skillname fs-4 d-flex justify-content-between text-light">
-      <div class="snma mt-5 pt-4">Java</div>
-      <div class="snma2">React Js</div>
-      <div class="snma3 mt-5 pt-4">Angular</div>
-      <div class="snma2">Web Dev</div>
-      <div class="snma5 mt-5 pt-4">Spring Boot</div>
-      <div class="snma2">C Program</div>
+  <div class="card">
+    <div class="skill">
+      <h2 class="text-light text-center">My Skills</h2>
+      <div class="box d-flex justify-content-between">
+        <div class="vbox"></div>
+        <div class="vbox"></div>
+        <div class="vbox"></div>
+        <div class="vbox"></div>
+        <div class="vbox"></div>
+        <div class="vbox"></div>
+      </div>
+      <!-- Add skills to list format -->
+      <ul class="skillname fs-4 d-flex justify-content-between text-light flex-wrap">
+        <li class="snma" id="snma">Java</li>
+        <li class="snma2">React Js</li>
+        <li class="snma3" id="snma">Angular</li>
+        <li class="snma2">Web Dev</li>
+        <li class="snma5" id="snma">Spring Boot</li>
+        <li class="snma2">C Program</li>
+      </ul>
     </div>
   </div>
-  <div class="exp mt-5">
-    <h2 class="text-light text-center mt-5 mb-3">My Experiences</h2>
+
+  <!-- Experience Section -->
+  <div class="exp">
+    <h2 class="text-light text-center mb-3">My Experiences</h2>
     <div class="box1"></div>
-    <div class="body mt-4 d-flex justify-content-between">
-      <div class="card me-2">
+    <div class="body d-flex justify-content-between">
+      <div class="card">
         <div class="card-body">
           <h4>Web development</h4>
           <strong>Octanet Private Limited</strong><br /><br />
@@ -66,7 +66,7 @@
           </ul>
         </div>
       </div>
-      <div class="card ms-2">
+      <div class="card">
         <div class="card-body">
           <h4>Java Developer</h4>
           <strong>CodDoft</strong><br /><br />
@@ -83,6 +83,4 @@
       </div>
     </div>
   </div>
-  
-  
 </div>

@@ -56,3 +56,16 @@ h1{
   transform: translateX(10px);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a shadow around the card */
 }
+
+@media (max-width: 900px){
+  .card{
+      font-size: .5rem;
+
+  }
+  img{
+      max-width: 50%;
+  }
+  .skill{
+      font-size: .9rem;
+  }
+}
