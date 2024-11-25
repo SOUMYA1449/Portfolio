@@ -1,0 +1,53 @@
+/* About Section Heading */
+.about > h2 {
+  font-family: "Times New Roman", serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.box {
+  height: 2px;
+  width: 100%;
+  margin-left: 10px;
+  background-color: white;
+}
+.vbox {
+  height: 75px;
+  width: 3px;
+  margin-right: 50px;
+  background-color: white;
+}
+.vbox2 {
+    height: 100px;
+    width: 3px;
+    margin-right: 60px;
+    background-color: white;
+  }
+.snma2 {
+  margin-left: 90px;
+  margin-top: 100px;
+}
+.snma3 {
+  margin-left: 100px;
+}
+.snma4 {
+  margin-left: 50px;
+}
+.snma5 {
+  margin-left: 50px;
+}
+.exp .card .card-body{
+    background-color:rgb(1, 35, 84) ;
+    color: white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.525);
+    border: 0px solid rgb(1, 35, 84) ;
+}
+.card{
+    border: 0px solid rgb(1, 35, 84) ;
+}
+.box1{
+    margin-left: 37%;
+    width: 27%;
+    height: 2px;
+    background-color: white;
+}
