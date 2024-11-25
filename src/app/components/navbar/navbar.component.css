@@ -1,6 +1,12 @@
 hr{
     color: white;
 }
+.container-fluid>a{
+    font-size: 1.9rem;
+}
+.container-fluid li{
+    font-size: 1.3rem;
+}
 @media(max-width:900px){
     ul li{
         font-size: .8rem;
